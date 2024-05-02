@@ -14,3 +14,5 @@ var obj = {
         return "this is balance ".concat(this.balance + balance);
     }
 };
+var arr = [1, 2, 23];
+var newArray = arr.map(function (elem) { return elem * elem; });

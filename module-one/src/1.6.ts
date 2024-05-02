@@ -8,11 +8,15 @@ function add(num1:number,num2:number): number{
 add(1,56)
 
 const arrowArray = (num1: number , num2:number): number => num1+num2;
-
+{
 const  obj = {
     name: 'k',
     balance: 0,
     addBalance(balance: number): string{
         return `this is balance ${this.balance + balance}`;
     }
+}
+const arr: number[] = [1,2,23];
+const newArray: number[] = arr.map((elem:number): number => elem * elem);
+
 }
