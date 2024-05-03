@@ -23,6 +23,16 @@
         [index: number] : number;
     }
     const rollNumber : Roll2 = [1,2,3,4,5,6,7]
+
+    // use function with type alias and interface
+    type Add = (num1: number,num2: number)=> number;
+    interface Add2 {
+        (num1: number,num2:number) : number;
+    }
+
+    const add: Add2 =(num1,num2) => num1 + num2;
+
+
     const user1: rollUser = {
         name: 'Akash',
         age: 20,
